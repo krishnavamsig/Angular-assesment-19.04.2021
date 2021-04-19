@@ -1,13 +1,18 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "7edf0432-4cdb-495c-85a4-167b280bf812"
+  },
   "version": 1,
   "newProjectRoot": "projects",
+  
   "projects": {
     "todo-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
+          
         }
       },
       "root": "",
